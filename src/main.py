@@ -35,7 +35,8 @@ bounce_sound.set_volume(0.5)
 score_sound = pygame.mixer.Sound("assets/audio/ping_pong_8bit_peeeeeep.ogg")
 score_sound.set_volume(0.5)
 
-SCORE_FONT = pygame.font.Font(None, 64)
+# SCORE_FONT = pygame.font.Font(None, 64)
+SCORE_FONT = pygame.font.Font("assets/font/pixeloid-font/PixeloidSans-JR6qo.ttf", 48)
 left_score = 0
 right_score = 0
 
