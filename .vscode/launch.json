@@ -6,11 +6,11 @@
     "configurations": [
         
         {
-            "name": "Python: Current File",
+            "name": "Python: Main",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/src/main.py",
-            "console": "integratedTerminal",
+            "console": "internalConsole",
             "justMyCode": true
         }
     ]
